@@ -1,0 +1,86 @@
+/* Here we go. Deep breath. */
+
+/*want to set all set box widths regardless of paddings & borders.*/ 
+* {
+    box-sizing: border-box;
+  }
+
+body {
+background-image: url("../images/concrete_seamless.png");
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+}
+
+.content-width {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#name-box {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 22px;
+    display: inline-block 
+}
+
+#header-links {
+    float: right;
+  
+
+}
+
+.main_division {clear: both
+
+}
+
+#about-box { 
+
+}
+
+#about-content {
+
+}
+
+about-con
+
+#bio-image {
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+
+footer {
+    background-color: #666666;
+    color: #777777;
+    font-size: 12px;
+    text-align: center;
+    padding: 40px;
+    border-top: 10px;
+    border-color:#4aaaa5;
+    border-top-style: solid;
+
+   
+}
