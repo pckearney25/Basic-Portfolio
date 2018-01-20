@@ -87,6 +87,7 @@ header {
     background-image: url("../images/concrete_seamless.png");
     clear: both;
     margin: 0 auto;
+    overflow: auto;
 
     }
     /*General styling of the <section> used in the index, portfolio, and contact htmls.*/
@@ -105,7 +106,6 @@ header {
         box-sizing: border-box;
         float: left;
         }
-
 
             #bio-image {
                 margin-right: 20px;
