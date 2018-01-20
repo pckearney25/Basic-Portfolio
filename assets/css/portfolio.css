@@ -87,12 +87,12 @@ body {
         background-image: url("../images/concrete_seamless.png");
         clear: both;
         margin: 0 auto;
-    
         }
         /*General styling of the <section> used in the index, portfolio, and contact htmls.*/
         /*There may be minor differences in values vs. the posted example.*/
     
             #foliosection {
+            clear: both
             background-color: #ffffff;
             width: 650px;
             height: 830px;
@@ -118,7 +118,72 @@ body {
                     border-bottom-color: #777777;
                     border-bottom-style: solid;
                     }
+                
+                .folio-set {
+                    position: relative;
+                    display: inline-block;
+                    background-color: #777777;
+                    height: 680px;
+                    width: 100%;
+                }
+
+                .folio1 {
+                    position: absolute;
+                    display: inline-block;
+                    background-color: #ec1241;
+                    height: 200px;
+                    width: 280px;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                    }
+
+                .folio2 {
+                    position: absolute;
+                    display: inline-block;
+                    background-color: #f57b09;
+                    height: 200px;
+                    width: 280px;
+                    top: 0;
+                    right: 0;
+                    z-index: 2;
+                    }
+                
+                .folio3 {
+                    position: absolute;
+                    display: inline-block;
+                    background-color: #ddec12;
+                    height: 200px;
+                    width: 280px;
+                    top: 35.5%;
+                    left: 0;
+                    z-index: 3;
+                    }
     
+                .folio4 {
+                    position: absolute;
+                    display: inline-block;
+                    background-color: #09f51d;
+                    height: 200px;
+                    width: 280px;
+                    top: 35.5%;
+                    right: 0;
+                    z-index: 4;
+                    }
+
+                .folio5 {
+                    position: absolute;
+                    display: inline-block;
+                    background-color: #2009f5;
+                    height: 200px;
+                    width: 280px;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 5;
+                    }
+
+
+               
     
     /*Begin styling of the social media sidebar.*/
     
