@@ -14,109 +14,83 @@
 
         <!--The following forms a box to group the header and the list.-->
 
-        <div class="content-width">
+        <section class="container">
 
-            <h1 id="name-box">Patrick Kearney</h1>
+            <h1 id="name-box"><b>Patrick Kearney</b></h1>
             
-            <ul id="header-links">
-                <li>
+            <ul id="nav-links">
+                <li id="liLeft">
                     <a href="index.html">About</a>
                 </li>
 
-                <li>
+                <li id="liCenter">
                     <a href="portfolio.html">Portfolio</a>
                 </li>
 
-                <li>
-                    <a href="portfolio.html">Contact</a>
+                <li id="liRight">
+                    <a href="contact.html">Contact</a>
                 </li>
 
-                <li>
-                        <a href="portfolio.html">Contact</a>
-                </li>
             </ul>
 
-        </div>
+        </section>
 
     </header>
     
-    <div id="main_division">
-        <!--The following forms the box containing the About and Connect boxes.-->
-        <div class="content-width">
+    <!--The code for the main body of the pages.-->
 
-            <!--This forms the Amout Me box -->
-            <div id="about-box">
+    <div class="container" id="main_division">
 
-                <h1>About Me </h1>
+            <!--This forms the Amout Me box on the lefthand portion of the page.-->
+            <section id="aboutsection">
+
+                <h1 id="content-headline">About Me</h1>
 
                 <!--Groups the image and text.-->
+                    
+                <img src="assets/images/PCK_image.jpg" alt="PCK pic" id="bio-image">
 
-                <div id="about-content">
+                <p id="about-text">
+                Patrick is an experienced senior-level research director in drug discovery with strong interests in entrepreneurship and the development and of new technologies/products for both business and consumer use. He was the Founder and C.E.O. of the now failed HD Sciences, a company dedicated to helping medicinal chemists take greater synthetic risks through the microscale chemicalsynthesis. He has also been a Senior Research Director at Exelixis in San Francisco, where his team identified 3 clinical development candidates abd built a 4.5 million compound screening library that was the basis for over 25 clinical development candidates. Adrift in Kansas City, Patrick is trying to "fit in" and is currently looking for new opportunities in the fields of biotechnology, pharmaceutical research, medical devices, animal health, and agricultural technology. For fun, and to prepare for his next entrepreneurial endeavor, he is currently struggling through a "Learn to Code" boot camp at the University of Kansas. He is also an avid gardener, chef, cyclist, yoga student, and beekeeper. Peace out, y'all.
+                </p> 
 
-                    <img src="assets/images/PCK_image.jpg" alt="PCK pic" id="bio-image">
+            </section>
 
-                    <p>
-                    Patrick is an experienced senior-level research director in drug discovery with strong interests in entrepreneurship and the development and of new technologies/products for both business and consumer use. He was the Founder and C.E.O. of the now failed HD Sciences, a company dedicated to helping medicinal chemists take greater synthetic risks through the microscale chemicalsynthesis. He has also been a Senior Research Director at Exelixis in San Francisco, where his team identified 3 clinical development candidates abd built a 4.5 million compound screening library that was the basis for over 25 clinical development candidates. Adrift in Kansas City, Patrick is trying to fit in and is currently looking for new opportunities in the fields of biotechnology, pharmaceutical research, medical devices, animal health, and agricultural technology. For fun, and to prepare for his next entrepreneurial endeavor, he is currently struggling through a "Learn to Code" boot camp. He is also an avid gardener, chef, cyclist, yoga student, and beekeeper. Peace out, y'all.
-                    </p>
-
-                </div>  
-
-            </div>
-
-            <!--This forms the "Connect" social media icon box.-->
-            <div>
+            <!--This forms the "Connect" social media box.-->
+            <sidebar>
 
                 <h2>Connect with Me</h2>
 
                 <!--The unordered list groups the Icons-->
-               <ul>
-                   <li>
-                        <img src="assets/images/github.png" alt="github"> 
-                   </li>
+                <ul id="iconListFormat">
 
-                   <li>
-                        <img src="assets/images/linkedin.png" alt="linkedin"> 
-                   </li>
+                    <li id="iconLeft">
+                        <a href="https://github.com/pckearney25">
+                            <img src="assets/images/github.jpg" alt="github" class="icon">
+                        </a>
+                    </li>
 
-                   <li>
-                        <img src="assets/images/stackoverflow.png" alt="stackoverflow"> 
-                   </li>
+                    <li id="iconCenter">
+                        <a href="https://www.linkedin.com/in/patrickckearney/">
+                            <img src="assets/images/linkedin.jpg" alt="linkedin" class="icon">
+                        </a> 
+                    </li>
+
+                    <li id="iconRight">
+                        <a href="https://stackoverflow.com/users/9205863/pckearney">
+                            <img src="assets/images/stackoverflow.jpg" alt="stackoverflow" class="icon">
+                        </a>
+                    </li>
 
                 </ul>
 
-            </div>
-
-        </div>
+            </sidebar>
 
     </div>
 
     <footer>
             &copy; Copyright 2018 Patrick Kearney
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>
