@@ -92,13 +92,12 @@ body {
         /*There may be minor differences in values vs. the posted example.*/
     
             #foliosection {
-            clear: both
             background-color: #ffffff;
             width: 650px;
-            height: 830px;
+            height: 800px;
             overflow: scroll;
             margin-top: 40px;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             padding-right: 24px;
             padding-left: 24px;
             border: 1px;
@@ -122,17 +121,31 @@ body {
                 .folio-set {
                     position: relative;
                     display: inline-block;
-                    background-color: #777777;
                     height: 680px;
                     width: 100%;
+                    }
+
+                .folio-size {
+                    height: 200px;
+                    width: 280px;
                 }
+
+                .folio-banner {
+                    display: block;
+                    background-color: #4aaaa5;
+                    color: #ffffff;
+                    font-size: 16px;
+                    text-align: center;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    margin-top: 135px; 
+                    }
 
                 .folio1 {
                     position: absolute;
                     display: inline-block;
-                    background-color: #ec1241;
-                    height: 200px;
-                    width: 280px;
+                    background-image: url("../images/science.jpg");
+                    background-size: contain;
                     top: 0;
                     left: 0;
                     z-index: 1;
@@ -141,9 +154,8 @@ body {
                 .folio2 {
                     position: absolute;
                     display: inline-block;
-                    background-color: #f57b09;
-                    height: 200px;
-                    width: 280px;
+                    background-image: url("../images/cooking.jpg");
+                    background-size: contain;
                     top: 0;
                     right: 0;
                     z-index: 2;
@@ -152,10 +164,9 @@ body {
                 .folio3 {
                     position: absolute;
                     display: inline-block;
-                    background-color: #ddec12;
-                    height: 200px;
-                    width: 280px;
-                    top: 35.5%;
+                    background-image: url("../images/gardening.jpg");
+                    background-size: contain;
+                    top: 34.5%;
                     left: 0;
                     z-index: 3;
                     }
@@ -163,10 +174,9 @@ body {
                 .folio4 {
                     position: absolute;
                     display: inline-block;
-                    background-color: #09f51d;
-                    height: 200px;
-                    width: 280px;
-                    top: 35.5%;
+                    background-image: url("../images/fitness.jpg");
+                    background-size: contain;
+                    top: 34.5%;
                     right: 0;
                     z-index: 4;
                     }
@@ -174,14 +184,14 @@ body {
                 .folio5 {
                     position: absolute;
                     display: inline-block;
-                    background-color: #2009f5;
-                    height: 200px;
-                    width: 280px;
-                    bottom: 0;
+                    background-image: url("../images/apiary.jpg");
+                    background-size: contain;
+                    bottom:10px;
                     left: 0;
                     z-index: 5;
                     }
-
+                
+                
 
                
     
@@ -234,19 +244,3 @@ body {
     
                 #iconRigth {
                 }
-    footer {
-        clear: both;
-        background-color: #666666;
-        color: #777777;
-        font-size: 12px;
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-        padding: 40px;
-        border-top: 10px;
-        border-color:#4aaaa5;
-        border-top-style: solid;
-        }   
-       
