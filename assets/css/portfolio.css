@@ -154,7 +154,7 @@ body {
                 .folio2 {
                     position: absolute;
                     display: inline-block;
-                    background-image: url("../images/cooking.jpg");
+                    background-image: url("../images/quartz.jpg");
                     background-size: contain;
                     top: 0;
                     right: 0;
@@ -190,7 +190,10 @@ body {
                     left: 0;
                     z-index: 5;
                     }
-                
+
+                #crystal-game {
+                    color: #ffffff;
+                }
                 
 
                
