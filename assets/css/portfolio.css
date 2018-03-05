@@ -184,14 +184,14 @@ body {
                 .folio5 {
                     position: absolute;
                     display: inline-block;
-                    background-image: url("../images/apiary.jpg");
+                    background-image: url("../images/phoebe_snow.jpg");
                     background-size: contain;
                     bottom:10px;
                     left: 0;
                     z-index: 5;
                     }
 
-                #crystal-game {
+                #crystal-game, #trivia-game, #ajax, #firebase {
                     color: #ffffff;
                 }
                 
