@@ -94,7 +94,7 @@ body {
             #foliosection {
             background-color: #ffffff;
             width: 650px;
-            height: 800px;
+            height: 1300px;
             overflow: scroll;
             margin-top: 40px;
             margin-bottom: 20px;
@@ -121,7 +121,7 @@ body {
                 .folio-set {
                     position: relative;
                     display: inline-block;
-                    height: 680px;
+                    height: 1180px;
                     width: 100%;
                     }
 
@@ -166,7 +166,7 @@ body {
                     display: inline-block;
                     background-image: url("../images/sakura.png");
                     background-size: contain;
-                    top: 34.5%;
+                    top: 20%;
                     left: 0;
                     z-index: 3;
                     }
@@ -176,7 +176,7 @@ body {
                     display: inline-block;
                     background-image: url("../images/paws_n_bones.jpg");
                     background-size: contain;
-                    top: 34.5%;
+                    top: 20%;
                     right: 0;
                     z-index: 4;
                     }
@@ -186,19 +186,39 @@ body {
                     display: inline-block;
                     background-image: url("../images/phoebe_snow.jpg");
                     background-size: contain;
-                    bottom:10px;
+                    top: 40%;
                     left: 0;
                     z-index: 5;
                     }
-                    
+        
                 .folio6 {
                     position: absolute;
                     display: inline-block;
                     background-image: url("../images/Liribot.jpg");
                     background-size: contain;
-                    bottom:10px;
+                    top: 40%;
                     right: 0;
                     z-index: 6;
+                    }      
+
+                .folio7 {
+                    position: absolute;
+                    display: inline-block;
+                    background-image: url("../images/bamazon.jpg");
+                    background-size: contain;
+                    top: 60%;
+                    left: 0;
+                    z-index: 7;
+                    }
+                    
+                .folio8 {
+                    position: absolute;
+                    display: inline-block;
+                    background-image: url("../images/friendfinder.jpg");
+                    background-size: contain;
+                    top: 60%;
+                    right: 0;
+                    z-index: 8;
                     }   
 
         
