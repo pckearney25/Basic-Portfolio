@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# Let's Begin: Creation of Bio pages.
 
-You can use the [editor on GitHub](https://github.com/pckearney25/Basic-Portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Using HTML and CSS to create pages for an online coding bio for posting to GitHub. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Overview
 
-### Markdown
+In this assignment, three html pages are created. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* an index page to host basic bio information. 
+* a portfolio page tthat will host links to projects.
+* a contact page for hosting author information. 
 
-```markdown
-Syntax highlighted code block
+The pages are styles with CSS. 
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Authors
 
-**Bold** and _Italic_ and `Code` text
+The html files presented here were coded by Patrick Kearney. Overall specifications for the code were derived from educational materials provided as part of the University of Kansas Full-Stack Web-Development Coding Bootcamp Program offered in conjunction with Trinity Educational Services.
 
-[Link](url) and ![Image](src)
-```
+## Built With
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* HTML5 and CSS
 
-### Jekyll Themes
+## License
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pckearney25/Basic-Portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This project is licensed under the MIT License.
 
-### Support or Contact
+## Acknowledgments
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+These pages were constructed as part of the University of Kansas Full-Stack Web-Development Coding Bootcamp Program offered in conjunction with Trinity Educational Services. Thanks to these institutions for providing the initial project requirements and examples of code that served as a guide for building the pages.
+
